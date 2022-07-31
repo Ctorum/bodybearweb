@@ -16,7 +16,9 @@ function App() {
       <form>
         <button type="button" className="instagram-button">
           <FiInstagram className="instagram-icon" />
-          @bodybearsuplementos
+          <div>
+            <p>@</p>bodybearsuplementos
+          </div>
         </button>
       </form>
     </section>
