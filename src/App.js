@@ -1,8 +1,27 @@
+import { FiInstagram } from 'react-icons/fi';
+import BodyBearLogo from './assets/bodybear-logo.svg';
+import './App.css';
+
 function App() {
   return (
-    <div className="App">
-      <h1>BodyBear</h1>
-    </div>
+    <section className="App">
+      <h2>SUA NOVA LOJA DE SUPLEMENTOS</h2>
+      <img
+        src={BodyBearLogo}
+        alt="BodyBear - Sua nova loja de suplementos"
+        id="logo"
+      />
+      <h3>Site em desenvolvimento...</h3>
+      <p>Nos siga no Instagram.</p>
+      <form>
+        <button type="button" className="instagram-button">
+          <FiInstagram className="instagram-icon" />
+          <div>
+            <p>@</p>bodybearsuplementos
+          </div>
+        </button>
+      </form>
+    </section>
   );
 }
 
