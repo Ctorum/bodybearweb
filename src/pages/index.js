@@ -14,7 +14,13 @@ function Development() {
       <h3>Site em desenvolvimento...</h3>
       <p>Nos siga no Instagram.</p>
       <form>
-        <button type="button" className="instagram-button">
+        <button
+          type="button"
+          className="instagram-button"
+          onClick={() =>
+            (window.location.href = 'https://instagram.com/bodybearsuplementos')
+          }
+        >
           <FiInstagram className="instagram-icon" />
           <div>
             <p>@</p>bodybearsuplementos
