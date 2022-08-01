@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.975d34f5.css",
-    "main.js": "/static/js/main.be74a98e.js",
-    "static/js/787.1c0f96ef.chunk.js": "/static/js/787.1c0f96ef.chunk.js",
-    "static/media/bodybear-logo.svg": "/static/media/bodybear-logo.9aa360b07c5342fe966a2a3d76ae1858.svg",
-    "index.html": "/index.html",
-    "main.975d34f5.css.map": "/static/css/main.975d34f5.css.map",
-    "main.be74a98e.js.map": "/static/js/main.be74a98e.js.map",
-    "787.1c0f96ef.chunk.js.map": "/static/js/787.1c0f96ef.chunk.js.map"
+    "main.css": "/bodybearweb/static/css/main.975d34f5.css",
+    "main.js": "/bodybearweb/static/js/main.b7c5313d.js",
+    "static/js/787.1c0f96ef.chunk.js": "/bodybearweb/static/js/787.1c0f96ef.chunk.js",
+    "static/media/bodybear-logo.svg": "/bodybearweb/static/media/bodybear-logo.9aa360b07c5342fe966a2a3d76ae1858.svg",
+    "index.html": "/bodybearweb/index.html",
+    "main.975d34f5.css.map": "/bodybearweb/static/css/main.975d34f5.css.map",
+    "main.b7c5313d.js.map": "/bodybearweb/static/js/main.b7c5313d.js.map",
+    "787.1c0f96ef.chunk.js.map": "/bodybearweb/static/js/787.1c0f96ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.975d34f5.css",
-    "static/js/main.be74a98e.js"
+    "static/js/main.b7c5313d.js"
   ]
 }
