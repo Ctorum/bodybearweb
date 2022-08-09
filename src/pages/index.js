@@ -15,7 +15,8 @@ function Development() {
         id="logo"
       />
       <h3>
-        Site em desenvolvimento<span>.</span>
+        Site em desenvolvimento
+        <span>.</span>
         <span>.</span>
         <span>.</span>
       </h3>
