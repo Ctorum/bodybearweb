@@ -167,6 +167,20 @@ p {
   margin-top: 1.625rem;
 }
 
+h3 span:nth-child(1) {
+  animation: loading-animation 1s infinite;
+}
+
+h3 span:nth-child(2) {
+  animation: loading-animation 1s infinite;
+  animation-delay: 0.3s;
+}
+
+h3 span:nth-child(3) {
+  animation: loading-animation 1s infinite;
+  animation-delay: 0.6s;
+}
+
 p {
   margin-top: 0.6875rem;
   margin-bottom: 3rem;
@@ -177,35 +191,22 @@ p {
   height: 3.375rem;
   background-color: #030303;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   font-family: 'Squada One', cursive;
-  font-size: 1rem;
+  font-size: 1.6rem;
   border-radius: 0.375rem;
   border: none;
-  filter: drop-shadow(0 0 30px #ffffff15);
+  filter: drop-shadow(0 0 3rem #ffffff20);
+  transition: 700ms ease-in-out;
 }
 
-.instagram-button div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
+.instagram-button:hover {
+  filter: drop-shadow(0 0 3rem #ffffff25);
 }
-
-.instagram-button div p {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  font-size: 24px;
-  margin-bottom: 2rem;
-}
-
 .instagram-icon {
   width: 2.3rem;
   height: 2.3rem;
-  margin-right: -0.9188rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -226,7 +227,7 @@ p {
   }
 
   p {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .instagram-button {
@@ -294,6 +295,15 @@ p {
   }
   100% {
     filter: drop-shadow(0px 0 0.5px var(--secondary-color));
+  }
+}
+
+@keyframes loading-animation {
+  from {
+    color: #fff;
+  }
+  to {
+    color: transparent;
   }
 }
 
