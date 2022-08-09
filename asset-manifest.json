@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bodybearweb/static/css/main.dcc51567.css",
-    "main.js": "/bodybearweb/static/js/main.ab086c8f.js",
+    "main.css": "/bodybearweb/static/css/main.fdd9c1ef.css",
+    "main.js": "/bodybearweb/static/js/main.b9b92f54.js",
     "static/js/787.1c0f96ef.chunk.js": "/bodybearweb/static/js/787.1c0f96ef.chunk.js",
     "static/media/bodybear-logo.svg": "/bodybearweb/static/media/bodybear-logo.9aa360b07c5342fe966a2a3d76ae1858.svg",
     "index.html": "/bodybearweb/index.html",
-    "main.dcc51567.css.map": "/bodybearweb/static/css/main.dcc51567.css.map",
-    "main.ab086c8f.js.map": "/bodybearweb/static/js/main.ab086c8f.js.map",
+    "main.fdd9c1ef.css.map": "/bodybearweb/static/css/main.fdd9c1ef.css.map",
+    "main.b9b92f54.js.map": "/bodybearweb/static/js/main.b9b92f54.js.map",
     "787.1c0f96ef.chunk.js.map": "/bodybearweb/static/js/787.1c0f96ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcc51567.css",
-    "static/js/main.ab086c8f.js"
+    "static/css/main.fdd9c1ef.css",
+    "static/js/main.b9b92f54.js"
   ]
 }
