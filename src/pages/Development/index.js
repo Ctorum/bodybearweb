@@ -43,8 +43,7 @@ function Development() {
             type="button"
             className="whatsapp-button"
             onClick={() =>
-              (window.location.href =
-                'https://instagram.com/bodybearsuplementos')
+              (window.location.href = 'https://wa.me/5511982502249')
             }
           >
             <FaWhatsapp className="whatsapp-icon" />
