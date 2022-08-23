@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Development from './pages';
+import Development from './pages/Development';
 
 export default function AppRoutes() {
   return (

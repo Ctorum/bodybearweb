@@ -151,20 +151,27 @@ h2 {
 }
 
 #logo {
-  width: 17rem;
-  height: 13.5rem;
+  height: 20%;
+  margin: 0.5rem 0;
   animation: blur-change 4500ms infinite ease-in-out;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h3,
 p {
   font-family: 'Squada One', cursive;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   width: 19.375rem;
   height: 1.5625rem;
   text-align: center;
   line-height: 2.375rem;
-  margin-top: 1.625rem;
+  margin-top: 0.5rem;
 }
 
 h3 span:nth-child(1) {
@@ -182,16 +189,22 @@ h3 span:nth-child(3) {
 }
 
 p {
-  margin-top: 0.6875rem;
   margin-bottom: 3rem;
 }
 
-.instagram-button {
+.button-legend {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.instagram-button,
+.whatsapp-button {
   width: 15rem;
   height: 3.375rem;
   background-color: #fdd14c;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   font-family: 'Squada One', cursive;
   font-size: 1.35rem;
@@ -201,13 +214,28 @@ p {
   color: black;
 }
 
+.whatsapp-button {
+  background-color: #5bd066;
+}
+
 .instagram-button:hover {
   background-color: #e4c567;
+}
+
+.whatsapp-button:hover {
+  background-color: #56ad5f;
 }
 .instagram-icon {
   width: 2.3rem;
   height: 2.3rem;
   stroke: black;
+  width: 25%;
+}
+.whatsapp-icon {
+  width: 2.3rem;
+  height: 2.3rem;
+  fill: black;
+  width: 25%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -217,8 +245,7 @@ p {
     height: 6.25rem;
   }
   #logo {
-    width: 30rem;
-    height: 20rem;
+    height: 25%;
   }
   h3,
   p {
@@ -231,45 +258,103 @@ p {
     margin-bottom: 1.5rem;
   }
 
-  .instagram-button {
+  .button-legend {
+    font-size: 1.5rem;
+  }
+
+  .instagram-button,
+  .whatsapp-button {
     width: 20rem;
     height: 6rem;
     font-size: 1.6rem;
   }
 
-  .instagram-icon {
+  .instagram-icon,
+  .whatsapp-icon {
     width: 3rem;
     height: 3rem;
-    margin-right: -1.125rem;
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h2 {
+    font-size: 2rem;
+    width: 15rem;
+    line-height: 2.975rem;
+    margin-bottom: 0;
+  }
+
+  h3,
+  p {
+    font-size: 1.3rem;
+    width: 30rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 3rem;
+  }
+
+  .button-legend {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .instagram-button,
+  .whatsapp-button {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+  .instagram-icon,
+  .whatsapp-icon {
+    width: 2rem;
+    height: 2rem;
+    width: 25%;
   }
 }
 
 @media only screen and (min-width: 1920px) {
   h2 {
     font-size: 3.5rem;
-    width: 30rem;
-    height: 7.5rem;
+    width: 25rem;
     line-height: 2.975rem;
+    margin-bottom: 0;
   }
+
   #logo {
-    width: 35rem;
-    height: 22rem;
+    margin: 2rem 0;
   }
+
   h3,
   p {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     width: 30rem;
-    height: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
   }
-  .instagram-button {
-    width: 22rem;
-    height: 7rem;
-    font-size: 1.9rem;
+
+  p {
+    margin-bottom: 3rem;
   }
-  .instagram-icon {
-    width: 3.5rem;
-    height: 3.5rem;
-    margin-right: -0.375rem;
+
+  .button-legend {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .instagram-button,
+  .whatsapp-button {
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    margin: 0.5rem;
+  }
+  .instagram-icon,
+  .whatsapp-icon {
+    width: 3rem;
+    height: 3rem;
+    width: 25%;
   }
 }
 
