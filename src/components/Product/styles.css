@@ -1,0 +1,44 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  height: 19rem;
+}
+
+.product-container .image {
+  width: 10rem;
+}
+
+.product-container .title,
+.product-container .real-value,
+.product-container .description,
+.product-container .value {
+  font-family: "Squada One", cursive;
+  text-align: center;
+}
+
+.product-container .title {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.product-container .real-value {
+  color: #ffffffb9;
+}
+
+.product-container .value {
+  font-size: 1.75rem;
+  color: var(--primary-color);
+  margin-top: 1rem;
+}
+
+:root {
+  --background-color: #000000;
+  --primary-color: #e4435e;
+  --primary-dark-background: #1f0106;
+  --primary-dark-color: #290108;
+  --secondary-color: #e0bd3e;
+  --secondary-gradient-color: #e3435d;
+  --tertiary-gradient-color: #e7435d;
+}

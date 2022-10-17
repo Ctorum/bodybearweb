@@ -1,0 +1,180 @@
+.container {
+  flex: 1;
+  width: 100%;
+}
+
+/*section 1 a.k.a. header*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 3rem;
+}
+
+.header .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 0 0 40px;
+}
+
+.header .logo h2 {
+  font-family: "Squada One", cursive;
+  font-size: 2.5rem;
+  color: var(--text-secondary-color);
+}
+
+.header .logo #logo {
+  height: 5rem;
+}
+
+.header form {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 40px 0 0;
+}
+
+.header form .button {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border: none;
+}
+
+.header form .button #user,
+.header form .button #cart {
+  flex-grow: 9;
+  fill: var(--primary-color);
+}
+
+.header form .button span {
+  flex-grow: 1;
+  font-size: 1rem;
+}
+
+/* section 2 a.k.a. banner/slide*/
+
+.image-ad {
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.image-ad #banner {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+/* section 3 a.k.a. info*/
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-dark-background);
+  height: 10rem;
+  padding: 0 10rem;
+  margin-bottom: 1.5rem;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  padding: 0 3rem;
+}
+
+.info div .title {
+  text-align: center;
+  font-family: "Squada One", cursive;
+  font-size: 2.3rem;
+  color: var(--secondary-color);
+}
+
+.info div .text {
+  text-align: center;
+  font-family: "Squada One", cursive;
+  font-size: 1.5rem;
+}
+
+/* section 4 a.k.a. sale-off */
+
+.sale-off {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.sale-off .margin {
+  margin: 0 4rem;
+}
+
+/* section 5 a.k.a. products*/
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products #title {
+  font-family: "Squada One", cursive;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.products .products-sale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* section 6 a.k.a. footer*/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--primary-dark-color);
+  padding: 5rem 10rem;
+}
+
+.footer .left,
+.footer .right {
+  display: flex;
+  flex-direction: column;
+  font-family: "Squada One", cursive;
+}
+
+.footer .title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  color: #ffffffd9;
+  margin-bottom: 0.25rem;
+}
+
+:root {
+  --background-color: #000000;
+  --primary-color: #e4435e;
+  --primary-dark-background: #1f0106;
+  --primary-dark-color: #290108;
+  --secondary-color: #e0bd3e;
+  --secondary-gradient-color: #e3435d;
+  --tertiary-gradient-color: #e7435d;
+}

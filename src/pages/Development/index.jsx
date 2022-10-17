@@ -1,6 +1,6 @@
-import { FiInstagram } from 'react-icons/fi';
-import BodyBearLogo from '../assets/bodybear-logo.svg';
-import './styles.css';
+import { FiInstagram } from "react-icons/fi";
+import BodyBearLogo from "../../assets/bodybear-logo.svg";
+import "./styles.css";
 
 function Development() {
   return (
@@ -18,7 +18,7 @@ function Development() {
           type="button"
           className="instagram-button"
           onClick={() =>
-            (window.location.href = 'https://instagram.com/bodybearsuplementos')
+            (window.location.href = "https://instagram.com/bodybearsuplementos")
           }
         >
           <FiInstagram className="instagram-icon" />
